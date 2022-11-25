@@ -1,10 +1,10 @@
 import java.util.Map;
 
-public class ShoppingCart {
+public class Shop {
     protected Purchase[] purchases;
     Map<String, Integer> products;
 
-    public ShoppingCart(Map<String, Integer> products) {
+    public Shop(Map<String, Integer> products) {
         this.products = products;
         purchases = new Purchase[products.keySet().size()];
     }

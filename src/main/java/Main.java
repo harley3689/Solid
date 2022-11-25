@@ -11,7 +11,7 @@ public class Main {
         products.put("Пирожок", 45);
 
 
-        ShoppingCart shop = new ShoppingCart(products);
+        Shop shop = new Shop(products);
 
         shop.printProducts();
 
